@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>DesktopVK</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/gaelb/OneDrive/Desktop/Overworked!/1/Content/illoJuan.png</File>
+    <File>C:/Users/gaelb/OneDrive/Desktop/Overworked!/1/Content/mapa1-oficina.png</File>
+    <File>C:/Users/gaelb/OneDrive/Desktop/Overworked!/1/Content/spritesCaminar.png</File>
+    <File>C:/Users/gaelb/OneDrive/Desktop/Overworked!/1/Content/vistaDer.png</File>
+    <File>C:/Users/gaelb/OneDrive/Desktop/Overworked!/1/Content/vistaFrontal.png</File>
+    <File>C:/Users/gaelb/OneDrive/Desktop/Overworked!/1/Content/vistaIzq.png</File>
+    <File>C:/Users/gaelb/OneDrive/Desktop/Overworked!/1/Content/vistaTrasera.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>

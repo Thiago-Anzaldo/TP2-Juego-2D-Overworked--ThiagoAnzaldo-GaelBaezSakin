@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>c:/Users/anzal/Downloads/Overworked!/Overworked!/1/Content/images/illoJuan.png</File>
+    <File>c:/Users/anzal/Downloads/Overworked!/Overworked!/1/Content/images/mapa1-oficina.png</File>
+    <File>c:/Users/anzal/Downloads/Overworked!/Overworked!/1/Content/images/spritesCaminar.png</File>
+    <File>c:/Users/anzal/Downloads/Overworked!/Overworked!/1/Content/images/TextoLogo.png</File>
+    <File>c:/Users/anzal/Downloads/Overworked!/Overworked!/1/Content/images/vistaDer.png</File>
+    <File>c:/Users/anzal/Downloads/Overworked!/Overworked!/1/Content/images/vistaFrontal.png</File>
+    <File>c:/Users/anzal/Downloads/Overworked!/Overworked!/1/Content/images/vistaIzq.png</File>
+    <File>c:/Users/anzal/Downloads/Overworked!/Overworked!/1/Content/images/vistaTrasera.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>
