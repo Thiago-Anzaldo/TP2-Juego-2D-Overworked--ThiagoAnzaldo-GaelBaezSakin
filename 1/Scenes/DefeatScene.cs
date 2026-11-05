@@ -1,5 +1,6 @@
 using Gum.Forms.Controls;
 using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Input;
 using MonoGameGum;
 using MonoGameLibrary;
@@ -14,6 +15,12 @@ public class DefeatScene : Scene
         base.Initialize();
         Core.ExitOnEscape = false;
         InitializeUI();
+    }
+
+    public override void LoadContent()
+    {
+        SoundEffect sonidoDerrota = Content.Load<SoundEffect>("audio/derrota");
+        sonidoDerrota.Play(AudioSettings.EffectsVolume, 0f, 0f);
     }
 
     private void InitializeUI()

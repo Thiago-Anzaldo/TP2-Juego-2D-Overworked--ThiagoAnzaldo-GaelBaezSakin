@@ -5,7 +5,7 @@
     <RollForward>Major</RollForward>
     <PublishReadyToRun>false</PublishReadyToRun>
     <TieredCompilation>false</TieredCompilation>
-    <MonoGamePlatform>DesktopVK</MonoGamePlatform>
+    <MonoGamePlatform>DesktopGL</MonoGamePlatform>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationManifest>app.manifest</ApplicationManifest>

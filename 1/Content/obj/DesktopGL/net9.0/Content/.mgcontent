@@ -4,16 +4,34 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/gaelb/OneDrive/Desktop/TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin/1/Content/images/illoJuan.png</File>
-    <File>C:/Users/gaelb/OneDrive/Desktop/TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin/1/Content/images/mapa1-oficina.png</File>
-    <File>C:/Users/gaelb/OneDrive/Desktop/TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin/1/Content/images/spritesCaminar.png</File>
-    <File>C:/Users/gaelb/OneDrive/Desktop/TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin/1/Content/images/TextoLogo.png</File>
-    <File>C:/Users/gaelb/OneDrive/Desktop/TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin/1/Content/images/vistaDer.png</File>
-    <File>C:/Users/gaelb/OneDrive/Desktop/TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin/1/Content/images/vistaFrontal.png</File>
-    <File>C:/Users/gaelb/OneDrive/Desktop/TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin/1/Content/images/vistaIzq.png</File>
-    <File>C:/Users/gaelb/OneDrive/Desktop/TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin/1/Content/images/vistaTrasera.png</File>
+    <File>c:/Users/anzal/Desktop/TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin/1/Content/audio/ambiente.wav</File>
+    <File>c:/Users/anzal/Desktop/TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin/1/Content/audio/derrota.wav</File>
+    <File>c:/Users/anzal/Desktop/TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin/1/Content/audio/impresora.wav</File>
+    <File>c:/Users/anzal/Desktop/TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin/1/Content/audio/limpieza.wav</File>
+    <File>c:/Users/anzal/Desktop/TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin/1/Content/audio/victoria.wav</File>
+    <File>c:/Users/anzal/Desktop/TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin/1/Content/images/illoJuan.png</File>
+    <File>c:/Users/anzal/Desktop/TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin/1/Content/images/Impresora.png</File>
+    <File>c:/Users/anzal/Desktop/TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin/1/Content/images/mapa1-oficina.png</File>
+    <File>c:/Users/anzal/Desktop/TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin/1/Content/images/ManchaCafe.png</File>
+    <File>c:/Users/anzal/Desktop/TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin/1/Content/images/Progreso Tarea.png</File>
+    <File>c:/Users/anzal/Desktop/TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin/1/Content/images/TareaLimpiarCompletada.png</File>
+    <File>c:/Users/anzal/Desktop/TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin/1/Content/images/spritesCaminar.png</File>
+    <File>c:/Users/anzal/Desktop/TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin/1/Content/images/TextoLogo.png</File>
+    <File>c:/Users/anzal/Desktop/TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin/1/Content/images/vistaDer.png</File>
+    <File>c:/Users/anzal/Desktop/TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin/1/Content/images/vistaFrontal.png</File>
+    <File>c:/Users/anzal/Desktop/TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin/1/Content/images/vistaIzq.png</File>
+    <File>c:/Users/anzal/Desktop/TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin/1/Content/images/vistaTrasera.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
