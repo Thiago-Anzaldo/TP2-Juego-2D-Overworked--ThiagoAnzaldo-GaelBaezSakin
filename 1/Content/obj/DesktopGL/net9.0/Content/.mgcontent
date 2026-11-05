@@ -4,14 +4,14 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>c:/Users/anzal/Downloads/Overworked!/Overworked!/1/Content/images/illoJuan.png</File>
-    <File>c:/Users/anzal/Downloads/Overworked!/Overworked!/1/Content/images/mapa1-oficina.png</File>
-    <File>c:/Users/anzal/Downloads/Overworked!/Overworked!/1/Content/images/spritesCaminar.png</File>
-    <File>c:/Users/anzal/Downloads/Overworked!/Overworked!/1/Content/images/TextoLogo.png</File>
-    <File>c:/Users/anzal/Downloads/Overworked!/Overworked!/1/Content/images/vistaDer.png</File>
-    <File>c:/Users/anzal/Downloads/Overworked!/Overworked!/1/Content/images/vistaFrontal.png</File>
-    <File>c:/Users/anzal/Downloads/Overworked!/Overworked!/1/Content/images/vistaIzq.png</File>
-    <File>c:/Users/anzal/Downloads/Overworked!/Overworked!/1/Content/images/vistaTrasera.png</File>
+    <File>C:/Users/gaelb/OneDrive/Desktop/TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin/1/Content/images/illoJuan.png</File>
+    <File>C:/Users/gaelb/OneDrive/Desktop/TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin/1/Content/images/mapa1-oficina.png</File>
+    <File>C:/Users/gaelb/OneDrive/Desktop/TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin/1/Content/images/spritesCaminar.png</File>
+    <File>C:/Users/gaelb/OneDrive/Desktop/TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin/1/Content/images/TextoLogo.png</File>
+    <File>C:/Users/gaelb/OneDrive/Desktop/TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin/1/Content/images/vistaDer.png</File>
+    <File>C:/Users/gaelb/OneDrive/Desktop/TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin/1/Content/images/vistaFrontal.png</File>
+    <File>C:/Users/gaelb/OneDrive/Desktop/TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin/1/Content/images/vistaIzq.png</File>
+    <File>C:/Users/gaelb/OneDrive/Desktop/TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin/1/Content/images/vistaTrasera.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />

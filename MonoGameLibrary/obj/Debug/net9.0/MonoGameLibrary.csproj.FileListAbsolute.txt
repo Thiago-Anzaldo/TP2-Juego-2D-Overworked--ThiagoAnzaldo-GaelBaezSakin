@@ -22,3 +22,16 @@ C:\Users\anzal\Downloads\Overworked!\Overworked!\MonoGameLibrary\obj\Debug\net9.
 C:\Users\anzal\Downloads\Overworked!\Overworked!\MonoGameLibrary\obj\Debug\net9.0\refint\MonoGameLibrary.dll
 C:\Users\anzal\Downloads\Overworked!\Overworked!\MonoGameLibrary\obj\Debug\net9.0\MonoGameLibrary.pdb
 C:\Users\anzal\Downloads\Overworked!\Overworked!\MonoGameLibrary\obj\Debug\net9.0\ref\MonoGameLibrary.dll
+C:\Users\gaelb\OneDrive\Desktop\TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin\MonoGameLibrary\bin\Debug\net9.0\MonoGameLibrary.deps.json
+C:\Users\gaelb\OneDrive\Desktop\TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin\MonoGameLibrary\bin\Debug\net9.0\MonoGameLibrary.dll
+C:\Users\gaelb\OneDrive\Desktop\TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin\MonoGameLibrary\bin\Debug\net9.0\MonoGameLibrary.pdb
+C:\Users\gaelb\OneDrive\Desktop\TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin\MonoGameLibrary\obj\Debug\net9.0\MonoGameLibrary.csproj.AssemblyReference.cache
+C:\Users\gaelb\OneDrive\Desktop\TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin\MonoGameLibrary\obj\Debug\net9.0\MonoGameLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gaelb\OneDrive\Desktop\TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin\MonoGameLibrary\obj\Debug\net9.0\MonoGameLibrary.AssemblyInfoInputs.cache
+C:\Users\gaelb\OneDrive\Desktop\TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin\MonoGameLibrary\obj\Debug\net9.0\MonoGameLibrary.AssemblyInfo.cs
+C:\Users\gaelb\OneDrive\Desktop\TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin\MonoGameLibrary\obj\Debug\net9.0\MonoGameLibrary.csproj.CoreCompileInputs.cache
+C:\Users\gaelb\OneDrive\Desktop\TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin\MonoGameLibrary\obj\Debug\net9.0\MonoGameLibrary.sourcelink.json
+C:\Users\gaelb\OneDrive\Desktop\TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin\MonoGameLibrary\obj\Debug\net9.0\MonoGameLibrary.dll
+C:\Users\gaelb\OneDrive\Desktop\TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin\MonoGameLibrary\obj\Debug\net9.0\refint\MonoGameLibrary.dll
+C:\Users\gaelb\OneDrive\Desktop\TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin\MonoGameLibrary\obj\Debug\net9.0\MonoGameLibrary.pdb
+C:\Users\gaelb\OneDrive\Desktop\TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin\MonoGameLibrary\obj\Debug\net9.0\ref\MonoGameLibrary.dll

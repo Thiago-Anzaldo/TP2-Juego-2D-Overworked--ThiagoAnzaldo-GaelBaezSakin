@@ -30,7 +30,7 @@ public class GameScene : Scene
 
     private Vector2 _posicion;
     private Matrix _cameraTransform = Matrix.Identity;
-    private TimeSpan _tiempoRestante = TimeSpan.FromSeconds(10);
+    private TimeSpan _tiempoRestante = TimeSpan.FromSeconds(120);
 
     public override void Initialize()
     {
@@ -61,6 +61,9 @@ public class GameScene : Scene
 
         _personaje = atlas.CreateAnimatedSprite("quieto-animation");
         _personaje.CenterOrigin();
+        _personaje.Origin = new Vector2(
+            _personaje.Origin.X,
+            _personaje.Origin.Y + DESPLAZAMIENTO_CENTRO_CABEZA_Y);
         _personaje.Scale = new Vector2(0.8f, 0.8f);
 
         // El mapa es solo de esta escena: usa el Content de la escena
@@ -87,6 +90,15 @@ public class GameScene : Scene
             Core.ChangeScene(new TitleScene());
             return;
         }
+
+        if (teclado.WasKeyJustPressed(Keys.D))
+            _personaje.Rotation = MathHelper.PiOver2;
+        else if (teclado.WasKeyJustPressed(Keys.A))
+            _personaje.Rotation = -MathHelper.PiOver2;
+        else if (teclado.WasKeyJustPressed(Keys.S))
+            _personaje.Rotation = MathHelper.Pi;
+        else if (teclado.WasKeyJustPressed(Keys.W))
+            _personaje.Rotation = 0f;
 
         _tiempoRestante -= gameTime.ElapsedGameTime;
         if (_tiempoRestante <= TimeSpan.Zero)
@@ -130,7 +142,7 @@ public class GameScene : Scene
         // Cámara centrada en el personaje
         float cameraX = -_posicion.X + (Core.GraphicsDevice.Viewport.Width / 2f);
         float cameraY = -_posicion.Y + (Core.GraphicsDevice.Viewport.Height / 2f);
-        _cameraTransform = Matrix.CreateTranslation((int)cameraX, (int)cameraY, 0);
+        _cameraTransform = Matrix.CreateTranslation(cameraX, cameraY, 0);
         GumService.Default.Update(gameTime);
     }
 
@@ -195,7 +207,9 @@ public class GameScene : Scene
         );
 
         _mapa.Draw(Core.SpriteBatch, Vector2.Zero);
-        _personaje.Draw(Core.SpriteBatch, new Vector2((int)_posicion.X, (int)_posicion.Y));
+        _personaje.Draw(
+            Core.SpriteBatch,
+            _posicion + new Vector2(0, DESPLAZAMIENTO_CENTRO_CABEZA_Y));
 
         Rectangle hitbox = CrearHitbox(_posicion);
         const int grosor = 1;
