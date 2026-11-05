@@ -135,7 +135,6 @@ C:\Users\anzal\Downloads\Overworked!\Overworked!\1\obj\Debug\net9.0\1.genruntime
 C:\Users\anzal\Downloads\Overworked!\Overworked!\1\obj\Debug\net9.0\ref\1.dll
 C:\Users\gaelb\OneDrive\Desktop\TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin\1\bin\Debug\net9.0\Content\images\atlas-definition.xml
 C:\Users\gaelb\OneDrive\Desktop\TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin\1\bin\Debug\net9.0\Content\images\illoJuan.xnb
-C:\Users\gaelb\OneDrive\Desktop\TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin\1\bin\Debug\net9.0\Content\images\mapa1-oficina.xnb
 C:\Users\gaelb\OneDrive\Desktop\TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin\1\bin\Debug\net9.0\Content\images\spritesCaminar.xnb
 C:\Users\gaelb\OneDrive\Desktop\TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin\1\bin\Debug\net9.0\Content\images\TextoLogo.xnb
 C:\Users\gaelb\OneDrive\Desktop\TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin\1\bin\Debug\net9.0\Content\images\vistaDer.xnb
@@ -659,3 +658,13 @@ C:\Users\anzal\AppData\Local\Temp\OverworkedFinalBuild\1.deps.json
 C:\Users\anzal\AppData\Local\Temp\OverworkedFinalBuild\1.runtimeconfig.json
 C:\Users\anzal\AppData\Local\Temp\OverworkedFinalBuild\1.dll
 C:\Users\anzal\AppData\Local\Temp\OverworkedFinalBuild\1.pdb
+C:\Users\gaelb\OneDrive\Desktop\TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin\1\bin\Debug\net9.0\Content\audio\ambiente.xnb
+C:\Users\gaelb\OneDrive\Desktop\TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin\1\bin\Debug\net9.0\Content\audio\derrota.xnb
+C:\Users\gaelb\OneDrive\Desktop\TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin\1\bin\Debug\net9.0\Content\audio\impresora.xnb
+C:\Users\gaelb\OneDrive\Desktop\TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin\1\bin\Debug\net9.0\Content\audio\limpieza.xnb
+C:\Users\gaelb\OneDrive\Desktop\TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin\1\bin\Debug\net9.0\Content\audio\victoria.xnb
+C:\Users\gaelb\OneDrive\Desktop\TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin\1\bin\Debug\net9.0\Content\images\Impresora.xnb
+C:\Users\gaelb\OneDrive\Desktop\TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin\1\bin\Debug\net9.0\Content\images\ManchaCafe.xnb
+C:\Users\gaelb\OneDrive\Desktop\TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin\1\bin\Debug\net9.0\Content\images\Progreso Tarea.xnb
+C:\Users\gaelb\OneDrive\Desktop\TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin\1\bin\Debug\net9.0\Content\images\TareaLimpiarCompletada.xnb
+C:\Users\gaelb\OneDrive\Desktop\TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin\1\bin\Debug\net9.0\Content\images\mapa1-oficina.xnb

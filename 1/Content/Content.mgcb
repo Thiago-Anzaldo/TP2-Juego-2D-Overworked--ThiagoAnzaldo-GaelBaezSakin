@@ -16,26 +16,36 @@
 #begin audio/ambiente.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/processorParam:Version=3.8.5.1
 /build:audio/ambiente.wav
 
 #begin audio/derrota.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/processorParam:Version=3.8.5.1
 /build:audio/derrota.wav
 
 #begin audio/impresora.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/processorParam:Version=3.8.5.1
 /build:audio/impresora.wav
 
 #begin audio/limpieza.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/processorParam:Version=3.8.5.1
 /build:audio/limpieza.wav
 
 #begin audio/victoria.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/processorParam:Version=3.8.5.1
 /build:audio/victoria.wav
 
 #begin images/atlas-definition.xml
@@ -67,19 +77,6 @@
 /processorParam:Version=3.8.5.1
 /build:images/Impresora.png
 
-#begin images/mapa1-oficina.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/processorParam:Version=3.8.5.1
-/build:images/mapa1-oficina.png
-
 #begin images/ManchaCafe.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -92,6 +89,19 @@
 /processorParam:TextureFormat=Color
 /processorParam:Version=3.8.5.1
 /build:images/ManchaCafe.png
+
+#begin images/mapa1-oficina.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/processorParam:Version=3.8.5.1
+/build:images/mapa1-oficina.png
 
 #begin images/Progreso Tarea.png
 /importer:TextureImporter
@@ -106,19 +116,6 @@
 /processorParam:Version=3.8.5.1
 /build:images/Progreso Tarea.png
 
-#begin images/TareaLimpiarCompletada.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/processorParam:Version=3.8.5.1
-/build:images/TareaLimpiarCompletada.png
-
 #begin images/spritesCaminar.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -131,6 +128,19 @@
 /processorParam:TextureFormat=Color
 /processorParam:Version=3.8.5.1
 /build:images/spritesCaminar.png
+
+#begin images/TareaLimpiarCompletada.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/processorParam:Version=3.8.5.1
+/build:images/TareaLimpiarCompletada.png
 
 #begin images/TextoLogo.png
 /importer:TextureImporter
@@ -196,3 +206,4 @@
 /processorParam:TextureFormat=Color
 /processorParam:Version=3.8.5.1
 /build:images/vistaTrasera.png
+

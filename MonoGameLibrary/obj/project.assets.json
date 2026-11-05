@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
     "net9.0": {
       "MonoGame.Framework.DesktopGL/3.8.6": {
@@ -316,24 +316,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\anzal\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\gaelb\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\anzal\\Desktop\\TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin\\MonoGameLibrary\\MonoGameLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\gaelb\\OneDrive\\Desktop\\TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin\\MonoGameLibrary\\MonoGameLibrary.csproj",
       "projectName": "MonoGameLibrary",
-      "projectPath": "C:\\Users\\anzal\\Desktop\\TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin\\MonoGameLibrary\\MonoGameLibrary.csproj",
-      "packagesPath": "C:\\Users\\anzal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\anzal\\Desktop\\TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin\\MonoGameLibrary\\obj\\",
+      "projectPath": "C:\\Users\\gaelb\\OneDrive\\Desktop\\TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin\\MonoGameLibrary\\MonoGameLibrary.csproj",
+      "packagesPath": "C:\\Users\\gaelb\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gaelb\\OneDrive\\Desktop\\TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin\\MonoGameLibrary\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\anzal\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\gaelb\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -345,6 +340,7 @@
       },
       "frameworks": {
         "net9.0": {
+          "framework": "net9.0",
           "targetAlias": "net9.0",
           "projectReferences": {}
         }
@@ -359,10 +355,11 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "10.0.200"
+      "SdkAnalysisLevel": "10.0.300"
     },
     "frameworks": {
       "net9.0": {
+        "framework": "net9.0",
         "targetAlias": "net9.0",
         "dependencies": {
           "MonoGame.Framework.DesktopGL": {
@@ -389,15 +386,15 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[9.0.14, 9.0.14]"
+            "version": "[9.0.17, 9.0.17]"
           },
           {
             "name": "Microsoft.NETCore.App.Ref",
-            "version": "[9.0.14, 9.0.14]"
+            "version": "[9.0.17, 9.0.17]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[9.0.14, 9.0.14]"
+            "version": "[9.0.17, 9.0.17]"
           }
         ],
         "frameworkReferences": {
@@ -405,7 +402,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
