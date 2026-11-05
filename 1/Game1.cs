@@ -8,7 +8,7 @@ namespace _1;
 
 public class Game1 : Core
 {
-    public Game1() : base("Mi Juego", 1280, 720, false)
+    public Game1() : base("OverWorked!", 1280, 720, false)
     {
     }
 
