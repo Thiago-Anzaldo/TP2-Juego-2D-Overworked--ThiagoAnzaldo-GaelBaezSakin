@@ -14,7 +14,7 @@ public class TitleScene : Scene
     // El título es un sprite (tu imagen), no texto
     private Sprite _titulo;
     private Vector2 _tituloPos;
-
+    private Sprite _fondo;
     private Panel _panelTitulo;
 
     public override void Initialize()
@@ -39,6 +39,9 @@ public class TitleScene : Scene
         _titulo = new Sprite(new TextureRegion(textura, 0, 0, textura.Width, textura.Height));
         _titulo.CenterOrigin();
         // _titulo.Scale = new Vector2(2f, 2f);  
+
+        Texture2D texturaFondo = Content.Load<Texture2D>("images/FondoTitulo");
+        _fondo = new Sprite(new TextureRegion(texturaFondo, 0, 0, texturaFondo.Width, texturaFondo.Height));
     }
 
     private void InitializeUI()
@@ -74,6 +77,7 @@ public class TitleScene : Scene
         Core.GraphicsDevice.Clear(Color.White);
 
         Core.SpriteBatch.Begin(samplerState: SamplerState.PointClamp);
+        _fondo.Draw(Core.SpriteBatch, Vector2.Zero);
         _titulo.Draw(Core.SpriteBatch, _tituloPos);
         Core.SpriteBatch.End();
 

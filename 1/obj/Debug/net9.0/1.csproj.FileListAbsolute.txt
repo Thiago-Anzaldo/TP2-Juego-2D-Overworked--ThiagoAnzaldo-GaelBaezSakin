@@ -668,3 +668,4 @@ C:\Users\gaelb\OneDrive\Desktop\TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezS
 C:\Users\gaelb\OneDrive\Desktop\TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin\1\bin\Debug\net9.0\Content\images\Progreso Tarea.xnb
 C:\Users\gaelb\OneDrive\Desktop\TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin\1\bin\Debug\net9.0\Content\images\TareaLimpiarCompletada.xnb
 C:\Users\gaelb\OneDrive\Desktop\TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin\1\bin\Debug\net9.0\Content\images\mapa1-oficina.xnb
+C:\Users\gaelb\OneDrive\Desktop\TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin\1\bin\Debug\net9.0\Content\images\FondoTitulo.xnb
