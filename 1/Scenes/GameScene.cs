@@ -37,7 +37,7 @@ public class GameScene : Scene
     private static readonly TimeSpan DURACION_MENSAJE_TAREA = TimeSpan.FromSeconds(2.5);
     private static readonly TimeSpan DURACION_EFECTO_LIMPIEZA = TimeSpan.FromSeconds(2.5);
     private static readonly Keys[] TeclasDireccion = { Keys.D, Keys.A, Keys.S, Keys.W };
-    private static readonly Vector2 PUNTO_IMPRESORA_MAPA = new(133f, 360f);
+    private static readonly Vector2 PUNTO_IMPRESORA_MAPA = new(153f, 405f);
 
     private Sprite _mapa;
     private Sprite _impresora;
@@ -149,7 +149,7 @@ public class GameScene : Scene
             _texturaImpresora.Height));
         _impresora.CenterOrigin();
         _impresora.Scale = new Vector2(ESCALA_IMPRESORA, ESCALA_IMPRESORA);
-        _impresora.Rotation = -MathHelper.PiOver2;
+        _impresora.Rotation = -MathHelper.Pi;
 
         Vector2 puntoInicioMapa = new(309f, 300f);
         _posicion = (puntoInicioMapa - new Vector2(_texturaMapa.Width / 2f, _texturaMapa.Height / 2f)) * ESCALA_MAPA;
