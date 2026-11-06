@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>c:/Users/anzal/Desktop/TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin/1/Content/images/vistaTrasera.png</SourceFile>
+  <SourceFile>C:/Users/anzal/Desktop/TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin/1/Content/images/vistaTrasera.png</SourceFile>
   <SourceTime>2026-11-05T21:06:45.3996089-03:00</SourceTime>
-  <DestFile>c:/Users/anzal/Desktop/TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin/1/Content/bin/DesktopGL/Content/images/vistaTrasera.xnb</DestFile>
-  <DestTime>2026-11-05T21:08:11.3216954-03:00</DestTime>
+  <DestFile>C:/Users/anzal/Desktop/TP2-Juego-2D-Overworked--ThiagoAnzaldo-GaelBaezSakin/1/Content/bin/DesktopGL/Content/images/vistaTrasera.xnb</DestFile>
+  <DestTime>2026-11-05T22:37:22.9740277-03:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2026-08-14T18:50:10-03:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

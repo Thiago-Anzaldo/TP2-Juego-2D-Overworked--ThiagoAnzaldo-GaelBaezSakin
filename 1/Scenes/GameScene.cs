@@ -247,8 +247,23 @@ public class GameScene : Scene
 
         ActualizarTareaImpresora(gameTime.ElapsedGameTime, estaCaminando);
         ActualizarTareaManchaCafe(gameTime.ElapsedGameTime, estaCaminando);
-        ActualizarMensajeTarea(gameTime.ElapsedGameTime);
-        ActualizarEfectoLimpieza(gameTime.ElapsedGameTime);
+        if (_tiempoMensajeTarea > TimeSpan.Zero)
+        {
+            _tiempoMensajeTarea -= gameTime.ElapsedGameTime;
+            if (_tiempoMensajeTarea <= TimeSpan.Zero)
+            {
+                _tiempoMensajeTarea = TimeSpan.Zero;
+                _mensajeTareaLabel.Text = " ";
+            }
+        }
+
+        if (_tiempoEfectoLimpieza > TimeSpan.Zero)
+        {
+            _tiempoEfectoLimpieza -= gameTime.ElapsedGameTime;
+            if (_tiempoEfectoLimpieza < TimeSpan.Zero)
+                _tiempoEfectoLimpieza = TimeSpan.Zero;
+        }
+
         _timerLabel.Text = $"{(int)_tiempoRestante.TotalMinutes:00}:{_tiempoRestante.Seconds:00}";
 
         if (_tareaImpresoraCompletada && _manchaCafeCompletada)
@@ -344,12 +359,14 @@ public class GameScene : Scene
         panel.Dock(Gum.Wireframe.Dock.Fill);
         panel.AddToRoot();
 
-        float separacion = CalcularSeparacionMenu(5, 38f, 48f);
-        CrearEtiquetaCentrada(panel, "Pausa", ObtenerPosicionMenu(0, 5, separacion), 180);
-        CrearBotonCentrado(panel, "Reanudar", ObtenerPosicionMenu(1, 5, separacion), Reanudar);
-        CrearBotonCentrado(panel, "Reintentar", ObtenerPosicionMenu(2, 5, separacion), () => Core.ChangeScene(new GameScene()));
-        CrearBotonCentrado(panel, "Ajustes", ObtenerPosicionMenu(3, 5, separacion), MostrarMenuAjustes);
-        CrearBotonCentrado(panel, "Volver al título", ObtenerPosicionMenu(4, 5, separacion), () => Core.ChangeScene(new TitleScene()));
+        float separacion = Math.Min(
+            48f,
+            (Math.Max(0f, (float)GumService.Default.CanvasHeight - 20f) - 38f) / 4f);
+        CrearEtiquetaCentrada(panel, "Pausa", -2f * separacion, 180);
+        CrearBotonCentrado(panel, "Reanudar", -separacion, Reanudar);
+        CrearBotonCentrado(panel, "Reintentar", 0f, () => Core.ChangeScene(new GameScene()));
+        CrearBotonCentrado(panel, "Ajustes", separacion, MostrarMenuAjustes);
+        CrearBotonCentrado(panel, "Volver al título", 2f * separacion, () => Core.ChangeScene(new TitleScene()));
     }
 
     private void MostrarMenuAjustes()
@@ -361,21 +378,14 @@ public class GameScene : Scene
         panel.Dock(Gum.Wireframe.Dock.Fill);
         panel.AddToRoot();
 
-        float separacion = CalcularSeparacionMenu(4, 38f, 54f);
-        CrearEtiquetaCentrada(panel, "Ajustes", ObtenerPosicionMenu(0, 4, separacion), 180);
-        CrearControlVolumen(panel, "Ambiente", ObtenerPosicionMenu(1, 4, separacion), true);
-        CrearControlVolumen(panel, "Efectos", ObtenerPosicionMenu(2, 4, separacion), false);
-        CrearBotonCentrado(panel, "Volver", ObtenerPosicionMenu(3, 4, separacion), MostrarMenuPausa);
+        float separacion = Math.Min(
+            54f,
+            (Math.Max(0f, (float)GumService.Default.CanvasHeight - 20f) - 38f) / 3f);
+        CrearEtiquetaCentrada(panel, "Ajustes", -1.5f * separacion, 180);
+        CrearControlVolumen(panel, "Ambiente", -0.5f * separacion, true);
+        CrearControlVolumen(panel, "Efectos", 0.5f * separacion, false);
+        CrearBotonCentrado(panel, "Volver", 1.5f * separacion, MostrarMenuPausa);
     }
-
-    private static float CalcularSeparacionMenu(int cantidadElementos, float altoElemento, float separacionMaxima)
-    {
-        float altoDisponible = Math.Max(0f, (float)GumService.Default.CanvasHeight - 20f);
-        return Math.Min(separacionMaxima, (altoDisponible - altoElemento) / (cantidadElementos - 1));
-    }
-
-    private static float ObtenerPosicionMenu(int indice, int cantidadElementos, float separacion) =>
-        (indice - (cantidadElementos - 1) / 2f) * separacion;
 
     private void CrearControlVolumen(Panel panel, string nombre, float posicionY, bool esMusica)
     {
@@ -436,29 +446,6 @@ public class GameScene : Scene
         InicializarUIJuego();
     }
 
-    private void ActualizarMensajeTarea(TimeSpan tiempoTranscurrido)
-    {
-        if (_tiempoMensajeTarea <= TimeSpan.Zero)
-            return;
-
-        _tiempoMensajeTarea -= tiempoTranscurrido;
-        if (_tiempoMensajeTarea <= TimeSpan.Zero)
-        {
-            _tiempoMensajeTarea = TimeSpan.Zero;
-            _mensajeTareaLabel.Text = " ";
-        }
-    }
-
-    private void ActualizarEfectoLimpieza(TimeSpan tiempoTranscurrido)
-    {
-        if (_tiempoEfectoLimpieza <= TimeSpan.Zero)
-            return;
-
-        _tiempoEfectoLimpieza -= tiempoTranscurrido;
-        if (_tiempoEfectoLimpieza < TimeSpan.Zero)
-            _tiempoEfectoLimpieza = TimeSpan.Zero;
-    }
-
     private void ActualizarOrientacion(KeyboardInfo teclado)
     {
         foreach (Keys tecla in TeclasDireccion)
@@ -494,7 +481,15 @@ public class GameScene : Scene
     private bool PuedeMoverA(Vector2 posicion)
     {
         Rectangle hitbox = CrearHitbox(posicion);
-        if (hitbox.Intersects(CrearHitboxImpresora()))
+        int anchoImpresora = (int)Math.Ceiling(_texturaImpresora.Width * ESCALA_IMPRESORA);
+        int altoImpresora = (int)Math.Ceiling(_texturaImpresora.Height * ESCALA_IMPRESORA);
+        Rectangle hitboxImpresora = new(
+            (int)Math.Floor(_posicionImpresora.X - anchoImpresora / 2f),
+            (int)Math.Floor(_posicionImpresora.Y - altoImpresora / 2f),
+            anchoImpresora,
+            altoImpresora);
+
+        if (hitbox.Intersects(hitboxImpresora))
             return false;
 
         float izquierda = hitbox.Left;
@@ -591,18 +586,6 @@ public class GameScene : Scene
             if (PuedeMoverA(siguiente))
                 pendientes.Enqueue(new Point(pasoX, pasoY));
         }
-    }
-
-    private Rectangle CrearHitboxImpresora()
-    {
-        int ancho = (int)Math.Ceiling(_texturaImpresora.Width * ESCALA_IMPRESORA);
-        int alto = (int)Math.Ceiling(_texturaImpresora.Height * ESCALA_IMPRESORA);
-
-        return new Rectangle(
-            (int)Math.Floor(_posicionImpresora.X - ancho / 2f),
-            (int)Math.Floor(_posicionImpresora.Y - alto / 2f),
-            ancho,
-            alto);
     }
 
     private static Rectangle CrearHitbox(Vector2 posicion)
